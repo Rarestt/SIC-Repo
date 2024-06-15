@@ -3,6 +3,7 @@
 #include <DHT.h>
 
 // Constants
+#define DEBUG_ESP_HTTP_CLIENT
 #define DHTPIN 13     // what pin we're connected to
 #define DHTTYPE DHT22   // DHT 22  (AM2302)
 DHT dht(DHTPIN, DHTTYPE);
